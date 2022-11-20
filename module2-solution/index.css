@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.container {
+    margin: 30px;
+    align-items: center;
+}
+
+.one {
+    background-color: pink;
+}
+
+.two {
+    background-color: red;
+    color: white
+}
+
+.three {
+    background-color: yellow;
+}
+
+@media (min-width: 992px) {
+    .inner-div {
+        border: 2px solid black;
+        float: left;
+        width: 30%;
+        height: 150px;
+        margin: 20px;
+        padding: 10px;
+        background-color: grey;
+    }
+    
+    .head {
+        float: right;
+        border: 2px solid black;
+        display: block;
+        width: 30%;
+        text-align: center;
+        margin-top: -10px;
+        margin-right: -11px;
+    }
+    
+    .content {
+        clear: both;
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .first, .second {
+        border: 2px solid black;
+        float: left;
+        width: 50%;
+        height: 150px;
+        /* margin: 3px; */
+        margin-bottom: 10px;
+        padding: 10px;
+        background-color: grey;
+    }
+
+    .third {
+        clear: both;
+        width: 100%;
+        border: 2px solid black;
+        height: 150px;
+        padding: 20px;
+        background-color: grey;
+    }
+
+    .one, .two {
+        float: right;
+        border: 2px solid black;
+        display: block;
+        width: 30%;
+        text-align: center;
+        margin-top: -10px;
+        margin-right: -11px;
+    }
+
+    .three {
+        float: right;
+        border: 2px solid black;
+        display: block;
+        width:  30%;
+        text-align: center;
+        margin-top: -20px;
+        margin-right: -20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .inner-div {
+        border: 2px solid black;
+        height: 150px;
+        margin: 20px 10px;
+        padding: 10px;
+        background-color: grey;
+    }
+
+    .head {
+        float: right;
+        border: 2px solid black;
+        display: block;
+        width: 30%;
+        text-align: center;
+        margin-top: -10px;
+        margin-right: -11px;
+    }
+
+    .content {
+        clear: both;
+        margin-top: 20px;
+    }
+}
